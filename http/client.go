@@ -1,4 +1,6 @@
 ﻿package main
+package http
+
 
 import (
 	"fmt"
