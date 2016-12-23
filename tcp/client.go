@@ -27,7 +27,7 @@ func main() {
 		log.Fatal("dialing:", err)
 	}
 	
-	args := Args{17, 8}
+	args := Args{17, 83}
 	var reply int
 	err = client.Call("Math.Multiply", args, &reply)
 	if err != nil {
