@@ -1,4 +1,5 @@
 ﻿package main
+package dev1
 
 import (
 	"errors"
